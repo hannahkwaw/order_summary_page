@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: cover;
+}
+img {
+  border-radius: 15px 15px 0 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-section {
+  align-self: center;
+  width: 450px;
+  height: 650px;
+  text-align: center;
+  background-color: white;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 15px;
+  margin: 25px 10px;
+}
+.text {
+  margin-top: 25px;
+}
+b {
+  font-size: 20px;
+}
+div p {
+  padding: 0 15px;
+  color: rgb(172, 167, 167);
+}
+
+.plan {
+  display: flex;
+  background-color: rgb(221, 228, 238);
+  justify-content: space-between;
+  margin: 2em;
+  padding: 1.5em;
+  border-radius: 13px;
+}
+
+button.proceed {
+  background-color: blue;
+  color: white;
+  width: 381px;
+  padding: 23px;
+  border-radius: 13px;
+}
+button.cancel {
+  width: 300px;
+  padding: 25px;
+  border: none;
+  background-color: #741f1f00;
+}
+
+/* active */
+button.cancel:active {
+  font-weight: bolder;
+}
+
+button.proceed:active {
+  background-color: rgba(105, 90, 205, 0.918);
+}
+
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1080px) {
+  .order-section {
+    align-self: center;
+    width: 450px;
+    height: 580px;
+  }
+  .head-image {
+    width:450px;
+    height:200px;
+  }
+  
+.text {
+  margin-top: 5px;
+}
+}
